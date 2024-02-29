@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+
+html {
+   height: 100vh;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: F2F2F2;
+    background: url(hackaton/médaille.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#descriptionHackaton {
+    max-width: 1200px;
+    width: 80%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 5%;
+    margin-left: 3%;
+   
+}
+
+#descriptionHackaton h2 {
+    text-align: start;
+    margin-bottom: 25px;
+    opacity: 90%;
+ 
+}
+
+#descriptionHackaton p {
+    font-size: 1.2rem;
+    font-family: font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    opacity: 90%;
+    line-height: 30px;
+    text-align: start;
+}
+
+#descriptionHackaton span {
+    margin-left: 10%;
+}
+
+#descriptionHackaton .btn {
+    display: inline-block;
+    padding: 1rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    margin: 25px;
+    border: none;
+}
+
+#descriptionHackaton a{
+    text-decoration: none;
+    color: var(--bg-color);
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  /* @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+   */
+  
